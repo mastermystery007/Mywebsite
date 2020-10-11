@@ -1,0 +1,251 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+    
+    background-image: url("wbgssd.jpg")
+    
+  }
+  
+  h1 {
+    font-style: italic;
+    color: #373fff;
+  }
+  
+  center {
+    border-radius: 8px;
+    
+     margin: 10px auto 20px;
+    display: block;
+    width: 90%;
+  }
+  .card {
+     margin-top: 5em;
+      box-shadow: 0 4px 8px 0 rgba(5, 0, 0, 0.2);
+      transition: 0.3s;
+    }
+    
+  
+  .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(196, 248, 7, 0.2);
+    }
+    
+    /* Add some padding inside the card container */
+    .container {
+      padding:  16px;
+    }
+    .blank { 
+      height: 15px;
+      width: 100%;
+      padding-top: 25px;
+      margin-left: 200px;
+      margin-top: 25px;
+      position: relative;
+      
+      -moz-border-radius: 25px;
+      -webkit-border-radius: 25px;
+      border-radius: 25px;
+      
+     
+  }
+
+
+    .meter { 
+      height: 15px;
+      width: 355px;
+     
+      margin-left: 200px;
+      margin-top: 25px;
+      position: relative;
+      background: #555;
+      -moz-border-radius: 25px;
+      -webkit-border-radius: 25px;
+      border-radius: 25px;
+      
+      box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+  }
+  
+  .meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(43,194,83);
+    background-image: linear-gradient(
+      center bottom,
+      rgb(43,194,83) 37%,
+      rgb(84,240,84) 69%
+    );
+    box-shadow: 
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+      inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  
+  
+  .orange > span {
+    background-color: #f1a165;
+    background-image: linear-gradient(to bottom, #f1a165, #f36d0a);
+  }
+  
+  .red > span {
+    background-color: #f0a3a3;
+    background-image: linear-gradient(to bottom, #f0a3a3, #f42323);
+  }
+  
+  
+  /* The navigation bar */
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    padding-bottom: 10px;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  h2 {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin: 30px 0 60px;
+  }
+  h2::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 3px;
+    background: #8fbc54;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+  }
+  .col-center {
+    margin: 0 auto;
+    float: none !important;
+  }
+  .carousel {
+    margin: 50px auto;
+    padding: 0 70px;
+  }
+  .carousel .item {
+    color: #999;
+    font-size: 14px;
+      text-align: center;
+    overflow: hidden;
+      min-height: 290px;
+  }
+  .carousel .item .img-box {
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+  }
+  .carousel .img-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+  }
+  .carousel .testimonial {
+    padding: 30px 0 10px;
+  }
+  .carousel .overview {	
+    font-style: italic;
+  }
+  .carousel .overview b {
+    text-transform: uppercase;
+    color: #7AA641;
+  }
+  .carousel .carousel-control {
+    width: 40px;
+      height: 40px;
+      margin-top: -20px;
+      top: 50%;
+    background: none;
+  }
+  .carousel-control i {
+      font-size: 68px;
+    line-height: 42px;
+      position: absolute;
+      display: inline-block;
+    color: rgba(0, 0, 0, 0.8);
+      text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+  }
+  .carousel .carousel-indicators {
+    bottom: -40px;
+  }
+  .carousel-indicators li, .carousel-indicators li.active {
+    width: 10px;
+    height: 10px;
+    margin: 1px 3px;
+    border-radius: 50%;
+  }
+  .carousel-indicators li {	
+    background: #999;
+    border-color: transparent;
+    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+  }
+  .carousel-indicators li.active {	
+    background: #555;		
+    box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+  }
+  p { 
+    font-size: 20px; 
+} 
+
+.container { 
+    background-color: rgb(192, 192, 192); 
+    width: 50%; 
+    border-radius: 15px; 
+} 
+
+.skill { 
+    background-color: rgb(116, 194, 92); 
+    color: white; 
+    padding: 1%; 
+    text-align: right; 
+    font-size: 20px; 
+    border-radius: 15px; 
+} 
+.topright {
+  position: absolute;
+  top: 70px;
+  right: 40px;
+  font-size: 18px;
+}
+
+.html { 
+    width: 80%; 
+} 
+
+.php { 
+    width: 100%; 
+} 
